@@ -1,7 +1,6 @@
 package generic;
 
 public class OnlyCatBox <T extends Cat
-//        & Comparable<String>
         > {
 
     private final Cat element;

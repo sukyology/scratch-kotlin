@@ -1,9 +1,9 @@
 package generic;
 
-public class JavaBox<T> {
+public class JBox<T> implements Box<T> {
 
-    private final T element;
-    public JavaBox(T element) {
+    protected T element;
+    public JBox(T element) {
         this.element = element;
     }
 

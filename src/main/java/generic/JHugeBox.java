@@ -3,11 +3,11 @@ package generic;
 import java.util.LinkedList;
 import java.util.List;
 
-public class JavaHugeBox<T> {
+public class JHugeBox<T> {
 
     private List<T> list;
 
-    public JavaHugeBox() {
+    public JHugeBox() {
         list = new LinkedList<>();
     }
 

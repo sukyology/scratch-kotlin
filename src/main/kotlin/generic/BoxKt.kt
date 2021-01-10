@@ -1,6 +1,6 @@
 package generic
 
-class Box<out T>(
+class BoxKt<out T>(
     private val element: T
 ) {
 

@@ -1,10 +1,9 @@
 package generic;
 
-public class MutableJavaBox<T> {
+public class MutableJBox<T> extends JBox<T> {
 
-    private T element;
-    public MutableJavaBox(T element) {
-        this.element = element;
+    public MutableJBox(T element) {
+        super(element);
     }
 
     public T get() {
